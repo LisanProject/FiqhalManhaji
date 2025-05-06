@@ -45,8 +45,8 @@ In these works, both scholars compiled and analyzed rulings from across the scho
 ::: {.callout-note title="The Authority of Ibn Hajar and al-Ramli"}
 Once the madhhab had been firmly established through the works of al-Nawawi and al-Rafi'i, it continued to flourish at the hands of Ibn Hajar and al-Ramli. Later scholars accepted their writings as authoritative in fatwa.
 
-- When Ibn Hajar and al-Ramli agree on a matter, their position is adopted as the **relied-upon** (mu'tamad).
-- If they differ, the **opinion of al-Nawawi** is preferred.
+- When Nawawi and al-Rafi'i agree on a matter, their position is adopted as the **relied-upon** (mu'tamad).
+- If they (Nawawi and Rafi'i) differ, the **opinion of al-Nawawi** is preferred.
 - If al-Nawawi was silent on the matter, **either of the two** may be relied upon.
 - If they both disagreed on a matter not addressed by earlier scholars, **the people of the Hijaz and Hadramawt** prefer Ibn Hajar, whereas **Egyptians and Syrians** often favor al-Ramli.
 :::
