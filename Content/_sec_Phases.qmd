@@ -11,18 +11,18 @@ In this phase, his students and companions began spreading the madhhab. Among th
 ### 3. The Expansion and Branching Phase  
 This stage witnessed the documentation and expansion of legal issues within the madhhab. Two major methodological approaches emerged:
 
-- **The Iraqi Approach**: Led by Abu Hamid al-Isfarayini, followed by al-Mawardi, Abu al-Tayyib al-Tabari, al-Bandaniji, al-Mutamali, Salim al-Razi, and others.
+- **The Iraqi Approach**: Led by Abu Hamid al-Isfarayini, followed by al-Mawardi, Abu al-Tayyib al-Tabari, al-Bandaniji, al-Mahamili, Sulaym al-Razi, and others.
 
 - **The Khurasani (Persian) Approach**: Led by al-Qaffal al-Saghir Abu Bakr al-Marwazi, followed by Abu Muhammad al-Juwayni, al-Furani, al-Qadi Husayn, Abu Ali al-Sinji, al-Masudi, and others.
 
-### 4. The Refinement Phase  
-This was a period in which the leading scholars of the madhhab, such as al-Rafi'i and al-Nawawi, reviewed and analyzed the views of the madhhab, clarifying its issues and positions. Their most important works in this phase include:
+### 4. The Codification Phase  
+This stage was carried out at the hands of the two great scholars of the madhhab: al-Rafi'i and al-Nawawi. Among the most important works produced in this phase are:
 
-- *al-Muharrar* and *al-Sharh al-Kabir* by al-Rafi'i  
-- *al-Minhaj* and *al-Majmu'* (commentary on *al-Muhadhdhab*) by al-Nawawi  
-- *Rawdat al-Talibin* by al-Nawawi  
+- *al-Muharrar* *al-Sharh al-Saghir* and *al-Sharh al-Kabir*, all by al-Rafi'i, which are themselves based on al-Ghazali’s *al-Wajiz*.
+- *al-Minhaj*, *al-Majmu' Sharh al-Muhadhdhab*, and *Rawdat al-Talibin*, all by al-Nawawi, which likewise draw upon *al-Wajiz*.
 
-In these works, they refined legal issues and weighed between competing reports and positions within the school.
+In these works, both scholars refined and systematically arranged the issues of the madhhab, clarified the evidences, and reconciled between the varying narrations and positions within the school.
+
 
 ### 5. The Consolidation Phase  
 This phase is marked by the efforts of two great scholars:
@@ -30,16 +30,17 @@ This phase is marked by the efforts of two great scholars:
 - **Ibn Hajar al-Haytami**: Author of *Tuhfat al-Muhtaj bi Sharh al-Minhaj*  
 - **al-Shams al-Ramli**: Author of *Nihayat al-Muhtaj ila Sharh al-Minhaj*  
 
-These two expanded upon the works of al-Nawawi and al-Rafi'i, clarified unresolved matters, and addressed new branches and questions. Their contributions shaped the mature form of the madhhab.
+In these works, both scholars compiled and analyzed rulings from across the school. They clarified points left unaddressed by earlier jurists (namely Nawawi and Rafi'i), referenced various transmitted positions, and organized them into a coherent legal system covering the entire breadth of jurisprudential topics.
 
----
+::: {.callout-note title="The Authority of Ibn Hajar and al-Ramli"}
+Once the madhhab had been firmly established through the works of al-Nawawi and al-Rafi'i, it continued to flourish at the hands of Ibn Hajar and al-Ramli. Later scholars accepted their writings as authoritative in fatwa.
 
-If the madhhab has been authenticated with agreement between al-Nawawi and al-Rafi'i, then it is considered the relied-upon position (mu'tamad). If there is disagreement between the two, the matter is referred to Ibn Hajar and al-Ramli. If they agree, that becomes the relied-upon view. In cases of disagreement between them, scholars of different regions tend to follow one over the other:
+- When Ibn Hajar and al-Ramli agree on a matter, their position is adopted as the **relied-upon** (mu'tamad).
+- If they differ, the **opinion of al-Nawawi** is preferred.
+- If al-Nawawi was silent on the matter, **either of the two** may be relied upon.
+- If they both disagreed on a matter not addressed by earlier scholars, **the people of the Hijaz and Hadramawt** prefer Ibn Hajar, whereas **Egyptians and Syrians** often favor al-Ramli.
+:::
 
-- Scholars of the Hijaz, Hadramawt, and Egypt follow Ibn Hajar.  
-- Scholars of al-Sham and Egypt tend to prefer al-Ramli.
-
----
 
 ## On Other Authors and Works
 
