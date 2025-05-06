@@ -1,5 +1,5 @@
 ---
-title: Fiqh al Manhaji Notes
+title: Introduction to the Shafi'i Madhhab- Taqrir al-Sadidah
 author:
   - name: Liban Hussein
     email: lisanproject25@gmail.com
