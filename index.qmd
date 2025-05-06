@@ -1,0 +1,22 @@
+---
+pagetitle: "Al-Fiqh al-Manhaji: Notes on the Shafi'i Madhhab"
+---
+
+# Al-Fiqh al-Manhaji  
+### A Systematic Manual According to the Madhhab of Imam al-Shafi'i  
+by **Dr. Mustafa al-Khin**, **Dr. Mustafa Dib al-Bugha**, and **Dr. Ali al-Sharbaji**
+
+**(c) 2025 Liban Hussein**
+
+This project is a work-in-progress collection of notes and commentary based on the lectures of **Shaykh Mahdi Lock** on the **Shafi'i madhhab**, using *Al-Fiqh al-Manhaji* as the core text.
+
+
+---
+
+::: {.callout-note}
+
+## **Quote**
+> *"I used to turn the page gently in front of Malik out of reverence for him, lest he hear its sound."*  
+> — Imam al-Shafi'i
+
+:::

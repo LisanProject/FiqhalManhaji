@@ -1,0 +1,58 @@
+::: {.content-hidden}
+Copyright (C) 2025 Liban Hussein
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+:::
+
+# Introduction {#sec-intro}
+
+This document is a working companion to **_Al-Fiqh al-Manhaji: A Systematic Manual According to the Madhhab of Imam al-Shafi'i_**, authored by **Dr. Mustafa al-Khin**, **Dr. Mustafa Dib al-Bugha**, and **Dr. Ali al-Sharbaji**.
+
+It is based on and inspired by ongoing **lectures by Shaykh Mahdi Lock**, and aims to support students of the Shafi'i madhhab through:
+
+- **Structured and summarized fiqh notes**  
+- **Clarifications of key legal rulings and definitions**  
+- **Side references from classical commentaries**  
+- **Thematic breakdowns by chapter and legal category**  
+- **Occasional comparisons with other madhahib where relevant**  
+
+The long-term goal is to provide an accessible, organized study companion for English-speaking students of sacred law, rooted in reliable Shafi'i methodology and sources.
+
+---
+
+## Organization
+
+The content follows the topical arrangement of the original *Al-Fiqh al-Manhaji* volumes, beginning with purification and prayer, and progressing through the major sections of worship, transactions, personal law, and social obligations. Each section is broken into:
+
+- Main rulings and definitions  
+- Evidence when included  
+- Summary tables where beneficial  
+- Notes, commentary, or clarifications based on trusted teachers and works like *Taqrirat al-Sadidah*
+
+---
+
+### Chapters Currently in Progress
+
+1. **Purification (al-Taharah)**  
+2. **Prayer (al-Salah)**  
+3. **Zakat**  
+4. **Fasting (al-Siyam)**  
+5. **Hajj and Umrah**
+
+More will be added over time, and each chapter will eventually include details on the footnotes and commentaries by the authors.
+
+---
+
+::: {.callout-important title="Note"}
+This is a living document and will be updated continuously as lectures continue, new insights emerge, and the annotations grow. Feedback, questions, and contributions are welcome.
+:::
