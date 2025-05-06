@@ -1,9 +1,3 @@
----
-title: "Introduction to the Shafi'i School"
-format: html
-lang: en
----
-
 # Introduction to the Shafi'i School
 
 ## The Founder of the School
@@ -16,7 +10,7 @@ Then he traveled to Madinah at the age of twelve, and memorized the entire *Muwa
 
 He traveled to Yemen and took knowledge from scholars such as Mutarrif ibn Mazin, Hisham ibn Yusuf the judge, Amr ibn Abi Salamah, and Yahya ibn Hasan. Then he traveled to Iraq and studied with Waki' ibn Jarrah, Muhammad ibn al-Hasan al-Shaybani, the jurist of Iraq. 
 
-He composed the book *Al-Hujjah* and established what became known as the old school of thought. Major scholars took knowledge from him, including Imam Ahmad ibn Hanbal, Abu Thawr, and others.
+He composed the book *Al-Hujjah* and established what became known as the old school of thought. Major scholars took knowledge from him, including Imam Ahmad ibn Hanbal, Abu Thawr, and others.  
 He turned towards Egypt, revising many of his earlier legal opinions. There, he founded his new legal school.
 
 He is regarded as the renewer (mujaddid) of the second century, as he combined between the sciences of hadith and the intellectual reasoning of opinion-based jurisprudence. He laid down the foundations of usul al-fiqh, authoring *Al-Risalah*, the first book on legal theory. His knowledge extended across hadith, Qur'an, Arabic, grammar, history, poetry, and theology. He lived a life of asceticism and worship, turning away from the world and preferring the hereafter. He passed away in Egypt in the year 204 AH.
@@ -28,3 +22,12 @@ He also said: "Knowledge of jurisprudence was locked up with its people until Al
 Imam Abu Zur'ah said about him: "I do not know of anyone who had a greater impact on the people of Islam than al-Shafi'i."
 
 May God have mercy on them and be pleased with them all.
+
+::: {.callout-note title="The Humility of the Imam and the Wisdom of His Legacy"}
+
+Imam al-Shafi'i once said:
+
+> "I wish that the people would learn this knowledge and none of it be attributed to me."
+
+Ironically, or perhaps providentially, his du'a was accepted. The enduring beauty of the Shafi'i school is that it was polished, codified, and brought to legal maturity by the hands of scholars after him — such as **al-Ghazali**, **al-Rafi'i**, and **al-Nawawi** — who preserved the madhab in the clearest possible form.
+:::

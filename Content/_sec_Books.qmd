@@ -1,83 +1,114 @@
 ## The Most Important Books of the Shafi'i Madhhab
 
-Books of fiqh in the madhhab are generally divided into the following categories: foundational texts (mutun), commentaries (shuruh), glosses (hawashi), legal responsa (fatawa), and others.
+Books of fiqh in the madhhab are generally divided into the following categories: foundational texts (*mutun*), commentaries (*shuruh*), supercommentaries (*hawashi*), legal responses (*fatawa*), and others.
 
 Among the most important books currently circulated in circles of learning are:
 
-### Foundational Texts (Mutun)
+### Foundational Texts (*Mutun*)
 
-- *Al-Risalah al-Jami'ah* by al-Sayyid Ahmad ibn Zayn al-Habashi  
-- *Safinat al-Najah* by Shaykh Salim ibn Sumayr al-Hadrami  
-- *Al-Muqaddimah al-Hadramiyyah* (in two versions: large and small) both by Shaykh Abd al-Rahman Bafadl  
-- *Al-Bayquniyyah* in poetry  
-- *Matn al-Ghayah wal-Taqrib* by Imam Abu Shuja' al-Asfahani  
-- *Sufrat al-Zurrah* by Imam Shihab al-Din Ahmad ibn Zaydan  
-- *Umdat al-Salik*
+- *Al-Risalah al-Jami'ah* by **Ahmad ibn Zayn al-Habashi**
+- *Safinat al-Najah* by **Salim ibn Sumayr al-Hadrami**
+- *Al-Muqaddimah al-Hadramiyyah* (both large and small versions) by **Abd al-Rahman Ba Fadl**
+- *Al-Yaqut al-Nafis* by **Ibn Ahmad ibn Umar al-Shatiri**
+- *Matn al-Ghayah wal-Taqrib* by **Abu Shuja' al-Asfahani**
+- *Safwat al-Zubad* by **Shihab al-Din Ahmad ibn Raslan**
+- *Umdat al-Salik* by **Ibn Naqib**
 
-### Commentaries (Shuruh)
+### Commentaries (*Shuruh*)
 
-- *Nayl al-Raja* (on Safinat al-Najah) by Ahmad ibn Umar al-Shatiri  
-- *Yusr al-Karim* (on al-Muqaddimah al-Hadramiyyah) by Shaykh Sa'id ibn Muhammad Ba'ishin  
-- Commentary by Ibn Qasim al-Ghuzzi on Matn Abu Shuja'  
-- Commentary by al-Khatib al-Shirbini on Matn Abu Shuja'  
-- *Fath al-Muin* by Shaykh Zayn al-Din ibn Abd al-Aziz al-Malibari  
-- *Sharh al-Minhaj* by Imam al-Nawawi  
-- *Kanz al-Raghibin* by al-Muhalli  
-- Commentary by al-Khatib al-Shirbini (on *Mughni al-Muhtaj*)  
-- *Nihayat al-Muhtaj* by al-Shams al-Ramli  
-- *Tuhfat al-Muhtaj* by Ibn Hajar al-Haytami
+- *Nayl al-Raja* — on *Safinat al-Najah* by **Ahmad ibn Umar al-Shatiri**
+- *Bushra al-Karim* — on *al-Muqaddimah al-Hadramiyyah* by **Sa'id ibn Muhammad Ba'ishin**
+- Commentary on *Matn Abi Shuja'* by **Ibn Qasim al-Ghazzi**
+- *Al-Iqna'* by **al-Khatib al-Shirbini**
+- *Fath al-Allam* — on *Murshid al-Anam* by **al-Jurdani**
+- *Fath al-Wahhab* — on *al-Minhaj* by **Zakariya al-Ansari**
+- *Fath al-Muin* — on *Qurrat al-Ayn* by **Zayn al-Din ibn Abd al-Aziz al-Malibari**
 
-### Supercommentaries (Hawashi)
+#### Major Commentaries on Imam al-Nawawi’s *Minhaj*
 
-- Supercommentary by al-Bajuri on the commentary of Ibn Qasim  
-- Supercommentary by Sayyid Bakri ibn Shata al-Dimyati on *Fath al-Muin*  
-- Supercommentary by Abd Allah ibn Hijazi al-Sharqawi on *Sharh al-Tahrir*  
-- Supercommentary by the scholars of Madinah on the commentary of Ibn Hajar  
-- Supercommentary by Muhammad ibn Sulayman al-Kurdi  
-- Supercommentary by al-Tarmasi  
-- Supercommentary by al-Khatib  
-- Supercommentary by Shaykh Sulayman al-Jamal (on multiple commentaries)
+- *Kanz al-Raghibin* by **al-Muhalli**
+- *Mughni al-Muhtaj* by **al-Khatib al-Shirbini**
+- *Nihayat al-Muhtaj* by **al-Ramli**
+- *Tuhfat al-Muhtaj* by **Ibn Hajar al-Haytami**
 
-### Additional Supercommentaries
+::: {.callout-important title="Why These Commentaries Matter"}
 
-- Supercommentary by Abd al-Hamid al-Shurwani and Ibn Qasim al-'Abbadi  
-- Supercommentary by al-Qalyubi  
-- Supercommentary by al-Umayrah on *Sharh al-Muhalli*  
-- Supercommentaries on *Nihayat al-Muhtaj* by al-Tarmasi and al-Rashidi
+These commentaries form the backbone of Shafi'i legal reasoning. They are not merely explanatory — they shape how the madhhab is transmitted, applied in fatwa, and taught around the world.
 
-### Collections of Legal Opinions (Fatawa)
+- They clarify ambiguous expressions in the core texts (*mutun*).
+- They reconcile variant opinions and serve as the primary references for jurists and students alike.
+- They preserve the reasoning of the madhhab's foremost authorities, including **Ibn Hajar**, **al-Ramli**, and **al-Nawawi**.
 
-- *Fatawa* of Sultan al-Ulama al-Izz ibn Abd al-Salam  
-- *Fatawa* of Imam al-Subki  
-- *Fatawa Nawawiyyah* by Imam al-Nawawi  
-- *Fatawa Kubra* by Ibn Hajar  
-- *Fatawa Bahjiyyah*  
-- *Fatawa Bughiyyat al-Mustarshidin* by al-Sayyid Abd al-Rahman al-Mashhur
+### Institutional Approaches
 
-### Books on Legal Derivation of Hadith(Takhrij al-Hadith)
+In institutions like **al-Azhar**, it is common for two or three major commentaries to be read alongside the *mutun* during lessons with the teacher. This approach emphasizes layered analysis, discussion, and legal evaluation in the classroom.
 
-- *Talkhis al-Habir* by Ibn Hajar al-Asqalani  
-- *Badr al-Munir* and *Tuhfat al-Muhtaj* (both noted for takhrij by Ibn al-Mulaqqin)
+In contrast, in the **Hijaz**, particularly in **Yemen**, teachers focus primarily on the *mutun* in class. Students are expected to study the commentaries independently after mastering the texts. This fosters precision, retention, and discipline in the early stages of learning.
+
+Each tradition carries its strengths — al-Azhar cultivates comparative analysis, while the Hijazi model emphasizes firm mastery before engaging multiple views.
+
+:::
+
+### Supercommentaries (*Hawashi*)
+
+- Supercommentary by **al-Bajuri** on the commentary of **Ibn Qasim** on *Matn Abi Shuja'*
+- Supercommentary by **Bakri ibn Shatta al-Dimyati** on *Fath al-Muin*
+- Supercommentary by **Abd Allah ibn Hajjazi al-Sharqawi** on *Sharh al-Tahrir*
+- Madinan tradition of supercommentaries on **Ibn Hajar**’s *Muqaddimah*, notably:
+  - **Muhammad ibn Sulayman al-Kurdi**
+  - **al-Tarmisi**
+- **al-Bujayrimi** on *al-Iqna'* of **al-Khatib**
+- **al-Jamal** and **al-Bujayrimi** on *Sharh al-Minhaj*
+- Further supercommentaries on *Minhaj al-Talibin* exist
+
+::: {.callout-note title="Unpublished Treasures"}
+Some supercommentaries remain in manuscript form and are in the process of being published. Among them:
+
+- **al-Dimyari** on various texts
+- **al-Azhari**
+- **Taqi al-Subki**
+:::
+
+Other important supercommentaries include:
+
+- **Abd al-Hamid al-Sharwani** and **Ibn Qasim al-Ubadi** on *Tuhfat al-Muhtaj*
+- **al-Qalubi** and **Umayrah** on *Sharh al-Mahalli*
+- **al-Shirbini** and **al-Rashidi** on *Nihayat al-Muhtaj*
+
+### Legal Opinions (*Fatawa*)
+
+- *Fatawa* of **al-Izz ibn Abd al-Salam**
+- *Fatawa* of **al-Subki**
+- *Fatawa al-Suyuti* (al-Hawi lil-Fatawi)
+- *Fatawa Nawawiyyah* by **al-Nawawi**
+- *Fatawa Kubra* by **Ibn Hajar**
+- *Fatawa Bamakhramah*
+- *Bughiyyat al-Mustarshidin* by **Abd al-Rahman al-Mashhur**
+
+### Works on Takhrij al-Hadith
+
+- *Talkhis al-Habir* by **Ibn Hajar al-Asqalani**
+- *Badr al-Munir* and *Tuhfat al-Muhtaj* by **Ibn al-Mulaqqin**
 
 ### Books Supporting the Madhhab with Evidences
 
-- *Nihayat al-Matlab fi Adillat al-Madhhab* by Imam al-Haramayn al-Juwayni  
-- *Al-Hawi al-Kabir* by al-Mawardi  
-- *Al-Majmu'* (commentary on *al-Muhadhdhab*) by Imam al-Nawawi  
-- *Fath al-Aziz* (also known as *Sharh al-Wajiz*)  
-- *Sharh al-Minhaj* by al-Subki  
-- *Sharh al-Muharrar* by al-Taqi al-Subki
+- *Nihayat al-Matlab fi Adillat al-Madhhab* by **Imam al-Haramayn al-Juwayni**
+- *al-Hawi al-Kabir* by **al-Mawardi**
+- *al-Majmu'* by **al-Nawawi**
+- *Fath al-Aziz* by **al-Rafi'i**
+- *Sharh al-Minhaj* by **Taqi al-Din al-Subki**
 
-### Lexicons of Fiqh Terminology
+### Fiqh Lexicons
 
-- *Al-Misbah al-Munir* by al-Fayyumi  
-- *Tahrir al-Tanbih* and *Daqa'iq al-Minhaj* by al-Nawawi  
-- *Al-Nuzum al-Mustatab fi Hall Alfaz al-Madhhab* by Ibn Batal al-Rukni
+- *al-Misbah al-Munir* by **al-Fayyumi**
+- *Tahrir al-Tanbih* and *Daqaiq al-Minhaj* by **al-Nawawi**
+- *al-Nazm al-Mustadhhab fi Hall Alfaz al-Madhhab* by **Ibn Batal al-Rukbi**
 
-### Biographical Dictionaries of Shafi'i Scholars
+### Biographical Dictionaries
 
-- *Tabaqat al-Shafi'iyyah* by Ibn Asim al-Abbadi  
-- *Tabaqat al-Shafi'iyyah al-Kubra* by al-Subki  
-- *Tabaqat al-Shafi'iyyah* by al-Isnawi  
-- *Tabaqat al-Shafi'iyyah* by Qadi Shihab  
-- *Al-Tuhfa al-Bahiyyah fi Tabaqat al-Shafi'iyyah* (manuscript) by al-Sharqawi
+- *Tabaqat al-Shafi'iyyah* by **Ibn Asim al-Abbadi**
+- *Tabaqat al-Shafi'iyyah al-Kubra* by **Taj al-Din al-Subki**
+- *Tabaqat al-Shafi'iyyah* by **al-Isnawi**
+- *Tabaqat al-Shafi'iyyah* by **Qadi Shuhbah**
+- *al-Tuhfa al-Bahiyyah fi Tabaqat al-Shafi'iyyah* by **al-Sharqawi**
+

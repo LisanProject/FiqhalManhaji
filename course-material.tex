@@ -1,0 +1,1007 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  a4paper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Fiqh al Manhaji Notes},
+  pdfauthor={Liban Hussein},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Fiqh al Manhaji Notes}
+\author{Liban Hussein}
+\date{2025-05-05}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+
+\section{Al-Fiqh al-Manhaji}\label{al-fiqh-al-manhaji}
+
+\subsubsection{A Systematic Manual According to the Madhhab of Imam
+al-Shafi'i}\label{a-systematic-manual-according-to-the-madhhab-of-imam-al-shafii}
+
+by \textbf{Dr.~Mustafa al-Khin}, \textbf{Dr.~Mustafa Dib al-Bugha}, and
+\textbf{Dr.~Ali al-Sharbaji}
+
+\textbf{(c) 2025 Liban Hussein}
+
+This project is a work-in-progress collection of notes and commentary
+based on the lectures of \textbf{Shaykh Mahdi Lock} on the
+\textbf{Shafi'i madhhab}, using \emph{Al-Fiqh al-Manhaji} as the core
+text.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, toptitle=1mm, coltitle=black, opacityback=0, bottomrule=.15mm, left=2mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{\textbf{Quote}}, rightrule=.15mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm, titlerule=0mm, leftrule=.75mm]
+
+\begin{quote}
+\emph{``I used to turn the page gently in front of Malik out of
+reverence for him, lest he hear its sound.''}\\
+--- Imam al-Shafi'i
+\end{quote}
+
+\end{tcolorbox}
+
+\section{Introduction}\label{sec-intro}
+
+This document is a working companion to \textbf{\emph{Al-Fiqh
+al-Manhaji: A Systematic Manual According to the Madhhab of Imam
+al-Shafi'i}}, authored by \textbf{Dr.~Mustafa al-Khin},
+\textbf{Dr.~Mustafa Dib al-Bugha}, and \textbf{Dr.~Ali al-Sharbaji}.
+
+It is based on and inspired by ongoing \textbf{lectures by Shaykh Mahdi
+Lock}, and aims to support students of the Shafi'i madhhab through:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Structured and summarized fiqh notes}\\
+\item
+  \textbf{Clarifications of key legal rulings and definitions}\\
+\item
+  \textbf{Side references from classical commentaries}\\
+\item
+  \textbf{Thematic breakdowns by chapter and legal category}\\
+\item
+  \textbf{Occasional comparisons with other madhahib where relevant}
+\end{itemize}
+
+The long-term goal is to provide an accessible, organized study
+companion for English-speaking students of sacred law, rooted in
+reliable Shafi'i methodology and sources.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Organization}\label{organization}
+
+The content follows the topical arrangement of the original
+\emph{Al-Fiqh al-Manhaji} volumes, beginning with purification and
+prayer, and progressing through the major sections of worship,
+transactions, personal law, and social obligations. Each section is
+broken into:
+
+\begin{itemize}
+\tightlist
+\item
+  Main rulings and definitions\\
+\item
+  Evidence when included\\
+\item
+  Summary tables where beneficial\\
+\item
+  Notes, commentary, or clarifications based on trusted teachers and
+  works like \emph{Taqrirat al-Sadidah}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Chapters Currently in
+Progress}\label{chapters-currently-in-progress}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Purification (al-Taharah)}\\
+\item
+  \textbf{Prayer (al-Salah)}\\
+\item
+  \textbf{Zakat}\\
+\item
+  \textbf{Fasting (al-Siyam)}\\
+\item
+  \textbf{Hajj and Umrah}
+\end{enumerate}
+
+More will be added over time, and each chapter will eventually include
+details on the footnotes and commentaries by the authors.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, breakable, toptitle=1mm, coltitle=black, opacityback=0, bottomrule=.15mm, left=2mm, bottomtitle=1mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Note}, rightrule=.15mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-important-color!10!white, arc=.35mm, toprule=.15mm, titlerule=0mm, leftrule=.75mm]
+
+This is a living document and will be updated continuously as lectures
+continue, new insights emerge, and the annotations grow. Feedback,
+questions, and contributions are welcome.
+
+\end{tcolorbox}
+
+\section{Introduction to the Shafi'i
+School}\label{introduction-to-the-shafii-school}
+
+\subsection{The Founder of the School}\label{the-founder-of-the-school}
+
+Muhammad ibn Idris al-Shafi'i al-Muttalibi is the founder of the Shafi'i
+school. His lineage connects with that of the Prophet Muhammad ﷺ at
+their common ancestor, Abd Manaf. He was born in Gaza in the year 150 AH
+and was brought to Mecca, where he began his pursuit of knowledge.
+
+He studied under Imam Khalid ibn Muslim al-Zanji, the Mufti of Mecca, as
+well as under al-Fudayl ibn Iyad, Sufyan ibn Uyaynah, and others.
+
+Then he traveled to Madinah at the age of twelve, and memorized the
+entire \emph{Muwattaʼ} in nine days, to closely accompany Imam Malik. He
+studied under Imam Malik until he became one of his top students. He
+also took knowledge from the scholars of Madinah and Mecca and became
+qualified to give Fatawa at the age of 15. He engaged deeply in Arabic
+linguistics and poetry and was praised for his mastery. Even al-Asma'i
+(a transmitter of Arab poetry) benefited from him, and he learned from
+the ancient poetry of the Banu Hudhayl tribe.
+
+He traveled to Yemen and took knowledge from scholars such as Mutarrif
+ibn Mazin, Hisham ibn Yusuf the judge, Amr ibn Abi Salamah, and Yahya
+ibn Hasan. Then he traveled to Iraq and studied with Waki' ibn Jarrah,
+Muhammad ibn al-Hasan al-Shaybani, the jurist of Iraq.
+
+He composed the book \emph{Al-Hujjah} and established what became known
+as the old school of thought. Major scholars took knowledge from him,
+including Imam Ahmad ibn Hanbal, Abu Thawr, and others.\\
+He turned towards Egypt, revising many of his earlier legal opinions.
+There, he founded his new legal school.
+
+He is regarded as the renewer (mujaddid) of the second century, as he
+combined between the sciences of hadith and the intellectual reasoning
+of opinion-based jurisprudence. He laid down the foundations of usul
+al-fiqh, authoring \emph{Al-Risalah}, the first book on legal theory.
+His knowledge extended across hadith, Qur'an, Arabic, grammar, history,
+poetry, and theology. He lived a life of asceticism and worship, turning
+away from the world and preferring the hereafter. He passed away in
+Egypt in the year 204 AH.
+
+Imam Ahmad said: ``Imam al-Shafi'i was like the sun for the world and
+like health for the body --- can either of these be replaced or
+substituted?''
+
+He also said: ``Knowledge of jurisprudence was locked up with its people
+until Allah opened it through al-Shafi'i.''
+
+Imam Abu Zur'ah said about him: ``I do not know of anyone who had a
+greater impact on the people of Islam than al-Shafi'i.''
+
+May God have mercy on them and be pleased with them all.
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, toptitle=1mm, coltitle=black, opacityback=0, bottomrule=.15mm, left=2mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{The Humility of the Imam and the Wisdom of His Legacy}, rightrule=.15mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm, titlerule=0mm, leftrule=.75mm]
+
+Imam al-Shafi'i once said:
+
+\begin{quote}
+``I wish that the people would learn this knowledge and none of it be
+attributed to me.''
+\end{quote}
+
+Ironically, or perhaps providentially, his du'a was accepted. The
+enduring beauty of the Shafi'i school is that it was polished, codified,
+and brought to legal maturity by the hands of scholars after him ---
+such as \textbf{al-Ghazali}, \textbf{al-Rafi'i}, and \textbf{al-Nawawi}
+--- who preserved the madhab in the clearest possible form.
+
+\end{tcolorbox}
+
+\subsection{The Imams of the School}\label{the-imams-of-the-school}
+
+\textbf{3rd Century:}\\
+And among the most important transmitters of the old madhab are: Imam
+Ahmad ibn Hanbal, Abu Thawr, al-Zafarani, al-Karabisi.
+
+\textbf{Students of al-Shafi'i (transmitters of the school):}\\
+Al-Muzani, al-Buwayti, al-Rabi' al-Muradi, Harmalah, al-Rabi' al-Jizi,
+Yunus ibn Abd al-Ala.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{4th Century:}\\
+Ibn Surayj, al-Qaffal al-Kabir al-Shashi, Abu Hamid al-Isfarayini,
+al-Ishtakhri, al-Marwazi, Ibn Abi Hurayrah, Ibn al-Qass.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{5th Century:}\\
+Al-Mawardi, Abu Ishaq al-Shirazi, Abu Muhammad al-Juwayni and his son,
+Imam al-Haramayn, Bahyaqi, al-Bandaniji, al-Muhamali, al-Qaffal
+al-Saghir al-Marwazi, al-Qadi Husayn, al-Furani, al-Masudi, Ibn
+al-Sabbagh, al-Mutawalli.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{6th Century:}\\
+Al-Ghazali (Hujjat al-Islam), al-Shashi, al-Baghawi, and al-Imrani.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{7th Century:}\\
+Ibn al-Salah, al-Qazwini, al-Izz ibn Abd al-Salam, the two great Imams
+al-Nawawi and al-Rafi'i (the two masters of the school), Ibn al-Firkah,
+Ibn Daqiq al-Id.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{8th Century:}\\
+Ibn al-Rif'ah, al-Taqi al-Subki, al-Qamuli, al-Isnawi, al-Adhra'i,
+al-Bulqini, Ibn al-Mulaqqin, al-Zarkashi, Ibn al-Naqib, al-Sharif
+al-Barizi, al-Muhibb al-Tabari.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{9th Century:}\\
+Al-Wali al-Iraqi, al-Taqi al-Hisni, al-Shihab ibn Raslan (author of
+\emph{Safwat al-Zubad}), Ibn Qadi Shuhbah, Ibn al-Muzajjad, al-Damiri,
+al-Jalal al-Mahalli, al-Afqahisi, Ibn al-Muqri, Abd Allah ibn Abd
+al-Rahman Ba-Fadal.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{10th Century:}\\
+Imam al-Jalal al-Suyuti, Shaykh al-Islam Zakariyya al-Ansari, al-Khatib
+al-Shirbini, al-Shihab al-Ramli, his son al-Shams, Ibn Hajar al-Haytami,
+Abd Allah ibn Umar Ba-Makhrama, Ibn Qasim al-Abbadi, Ba Qushayr, and
+ibn-Ziyad.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{11th Century:}\\
+Burhan al-Birmawi, Ali al-Shabaramilsi, and others.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{12th Century:}\\
+Al-Bajuri, al-Sharqawi, al-Bujayrarmi, Abd Allah ibn Husayn Bal Faqih,
+Abd Allah ibn Ahmad Basudan, Sa'id ibn Muhammad Ba'ishin, Abd al-Rahman
+ibn Sulayman al-Ahdal, Ali Basabrin, others.---
+
+\textbf{13th Century:}\\
+Sayyid Alawi ibn Ahmad al-Saqqaf, Ahmad ibn Zayni Dahlan, Bakri Shatta,
+Abd al-Rahman al-Mashhur, Abu Bakr ibn Abd al-Rahman ibn Shihab, Abu
+Bakr ibn Ahmad al-Khatib, Abd Allah Ba Jammah, Abd Allah ibn Umar
+al-Shatiri, Ahmad ibn Umar al-Shatiri, Abd al-Rahman ibn Abdid Allah
+al-Saqqaf, Muhammad ibn Hadi al-Saqqaf, Muhammad ibn Salim ibn Hafiz,
+and others.
+
+\textbf{14th Century and Later:}\\
+A large number of scholars appeared and authored works in the later
+centuries. May Allah be pleased with them all. The scholars of the
+madhhab wrote prolifically --- so much so that it is difficult to even
+count all their writings.
+
+This is exemplified in the work of Imam al-Subki, \emph{Tabaqat
+al-Shafi'iyyah al-Kubra}, which spans ten volumes. It demonstrates the
+vast number of scholars in the Shafi'i tradition, the range of their
+service, and how nearly every field of Islamic knowledge has Shafi'i
+representatives.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Usulis (Legal Theorists):}\\
+Al-Juwayni (author of \emph{al-Burhan}), al-Ghazali (author of
+\emph{al-Mustasfa}), al-Razi (author of \emph{al-Mahsool}), Taj al-Subki
+(author of \emph{Jam' al-Jawami}), al-Baydawi (author of \emph{Minhaj
+al-Usul}), and others --- their books are among the most significant in
+the field of usul al-fiqh.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Hadith Scholars:}\\
+The hadith masters include: al-Daraqutni, Ibn Khuzaymah, Ibn Hibban, Abu
+Nu'aym, ibn al-Mundhir, al-Khatabi, Khatib al-Baghdadi, al-Hafidh
+al-Bayhaqi (author of \emph{al-Sunan}), Zayn al-Iraqi (author of
+\emph{Alfiyyah} in Hadith), al-Haythami (author of \emph{Majma'
+al-Zawa'id}), Ibn Hajar al-Asqalani (author of \emph{Fath al-Bari}), and
+others.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Historians and Biographers:}\\
+Ibn 'Asakir (author of \emph{Tarikh Dimashq}), al-Dhahabi (author of
+\emph{Siyar A'lam al-Nubala'}), al-Safadi (author of \emph{al-Wafi}),
+Ibn Kathir (author of \emph{al-Bidayah wa al-Nihayah}), Ibn al-Athir
+(author of \emph{al-Kamil}), and others.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Theologians (Mutakallimeen):}\\
+Al-Halimi (author of \emph{Shu'ab al-Iman}), Abd al-Qahir al-Baghdadi,
+Fakhr al-Din al-Razi (author of \emph{al-Matalib al-'Aliyah}), and
+others in the field of theology and doctrine. Others include 'Adul
+al-Ayji, al-Aamidi, 'Ulaa al-Baji, al-Asfahani, al-Taftazani, and
+others.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Quran Commentators:}\\
+Al-Mawardi (author of the great \emph{Tafsir}), al-Khazin, al-Baghawi
+(author of \emph{Ma'alim al-Tanzil}).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Quran Reciters:}\\
+Al-Ja'bari, Ibn al-Jazari (author of \emph{al-Nashr}), al-Shihab
+al-Qastallani.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Linguists and Grammarians:}\\
+Abu Hayyan al-Andalusi, Ibn Malik (author of \emph{al-Alfiyyah}), Ibn
+Aqil, Ibn Hisham, al-Fayruzabadi (author of \emph{al-Qamus}), and
+others.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Among the Sufi Masters:}\\
+Al-Qushayri (author of \emph{al-Risalah al-Qushayriyyah}), Imam
+al-Ghazali, Imam Abd Allah ibn Alawi al-Haddad.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+And countless other imams and scholars who contributed to the sciences
+and branches of knowledge across the Islamic tradition.
+
+\subsection{A Summary of the History of the Shafi'i
+Madhhab}\label{a-summary-of-the-history-of-the-shafii-madhhab}
+
+The history of the madhhab can be summarized in five phases:
+
+\subsubsection{1. The Founding Phase}\label{the-founding-phase}
+
+This began with the establishment of the school and ended with the death
+of Imam al-Shafi'i, may God be pleased with him. During this phase, he
+authored foundational works such as \emph{al-Umm}.
+
+\subsubsection{2. The Transmission Phase}\label{the-transmission-phase}
+
+In this phase, his students and companions began spreading the madhhab.
+Among the most well-known of their writings is \emph{Mukhtasar
+al-Muzani}.
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, toptitle=1mm, coltitle=black, opacityback=0, bottomrule=.15mm, left=2mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{The Legacy of al-Muzani and the Departure of al-Tahawi}, rightrule=.15mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm, titlerule=0mm, leftrule=.75mm]
+
+Al-Muzani, one of the closest students of Imam al-Shafi'i, played a
+pivotal role in transmitting the madhhab. His \emph{Mukhtasar} became a
+foundational reference for later scholars.
+
+His nephew, Abu Ja'far al-Tahawi, initially studied under him in the
+Shafi'i school. However, when al-Tahawi showed signs of leaning toward
+the Hanafi madhhab, al-Muzani reportedly remarked:
+
+\begin{quote}
+``You will never attain a high rank in knowledge.''
+\end{quote}
+
+Feeling dismissed and underestimated, al-Tahawi left the Shafi'i school
+and committed himself to the Hanafi tradition. In time, he rose to
+become one of its most authoritative jurists---authoring works like
+\emph{Sharh Ma'ani al-Athar} and \emph{Aqidah al-Tahawiyyah}, which
+continue to be studied across madhhabs to this day.
+
+\end{tcolorbox}
+
+\subsubsection{3. The Expansion and Branching
+Phase}\label{the-expansion-and-branching-phase}
+
+This stage witnessed the documentation and expansion of legal issues
+within the madhhab. Two major methodological approaches emerged:
+
+\begin{itemize}
+\item
+  \textbf{The Iraqi Approach}: Led by Abu Hamid al-Isfarayini, followed
+  by al-Mawardi, Abu al-Tayyib al-Tabari, al-Bandaniji, al-Mahamili,
+  Sulaym al-Razi, and others.
+\item
+  \textbf{The Khurasani (Persian) Approach}: Led by al-Qaffal al-Saghir
+  Abu Bakr al-Marwazi, followed by Abu Muhammad al-Juwayni, al-Furani,
+  al-Qadi Husayn, Abu Ali al-Sinji, al-Masudi, and others.
+\end{itemize}
+
+\subsubsection{4. The Codification Phase}\label{the-codification-phase}
+
+This stage was carried out at the hands of the two great scholars of the
+madhhab: al-Rafi'i and al-Nawawi. Among the most important works
+produced in this phase are:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{al-Muharrar} \emph{al-Sharh al-Saghir} and \emph{al-Sharh
+  al-Kabir}, all by al-Rafi'i, which are themselves based on
+  al-Ghazali's \emph{al-Wajiz}.
+\item
+  \emph{al-Minhaj}, \emph{al-Majmu' Sharh al-Muhadhdhab}, and
+  \emph{Rawdat al-Talibin}, all by al-Nawawi, which likewise draw upon
+  \emph{al-Wajiz}.
+\end{itemize}
+
+In these works, both scholars refined and systematically arranged the
+issues of the madhhab, clarified the evidences, and reconciled between
+the varying narrations and positions within the school.
+
+\subsubsection{5. The Consolidation
+Phase}\label{the-consolidation-phase}
+
+This phase is marked by the efforts of two great scholars:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Ibn Hajar al-Haytami}: Author of \emph{Tuhfat al-Muhtaj bi
+  Sharh al-Minhaj}\\
+\item
+  \textbf{al-Shams al-Ramli}: Author of \emph{Nihayat al-Muhtaj ila
+  Sharh al-Minhaj}
+\end{itemize}
+
+In these works, both scholars compiled and analyzed rulings from across
+the school. They clarified points left unaddressed by earlier jurists
+(namely Nawawi and Rafi'i), referenced various transmitted positions,
+and organized them into a coherent legal system covering the entire
+breadth of jurisprudential topics.
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, toptitle=1mm, coltitle=black, opacityback=0, bottomrule=.15mm, left=2mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{The Authority of Ibn Hajar and al-Ramli}, rightrule=.15mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm, titlerule=0mm, leftrule=.75mm]
+
+Once the madhhab had been firmly established through the works of
+al-Nawawi and al-Rafi'i, it continued to flourish at the hands of Ibn
+Hajar and al-Ramli. Later scholars accepted their writings as
+authoritative in fatwa.
+
+\begin{itemize}
+\tightlist
+\item
+  When Ibn Hajar and al-Ramli agree on a matter, their position is
+  adopted as the \textbf{relied-upon} (mu'tamad).
+\item
+  If they differ, the \textbf{opinion of al-Nawawi} is preferred.
+\item
+  If al-Nawawi was silent on the matter, \textbf{either of the two} may
+  be relied upon.
+\item
+  If they both disagreed on a matter not addressed by earlier scholars,
+  \textbf{the people of the Hijaz and Hadramawt} prefer Ibn Hajar,
+  whereas \textbf{Egyptians and Syrians} often favor al-Ramli.
+\end{itemize}
+
+\end{tcolorbox}
+
+\subsection{On Other Authors and
+Works}\label{on-other-authors-and-works}
+
+As for other authors whose writings are often transmitted, their
+opinions are accepted in legal practice and fatwa unless they are known
+to contain error, carelessness, or weakness --- something only
+recognized by those well-trained in this field, i.e one who has taken
+from Shuyookh in this field.
+
+\subsection{The Most Important Books of the Shafi'i
+Madhhab}\label{the-most-important-books-of-the-shafii-madhhab}
+
+Books of fiqh in the madhhab are generally divided into the following
+categories: foundational texts (\emph{mutun}), commentaries
+(\emph{shuruh}), supercommentaries (\emph{hawashi}), legal responses
+(\emph{fatawa}), and others.
+
+Among the most important books currently circulated in circles of
+learning are:
+
+\subsubsection{\texorpdfstring{Foundational Texts
+(\emph{Mutun})}{Foundational Texts (Mutun)}}\label{foundational-texts-mutun}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Al-Risalah al-Jami'ah} by \textbf{Ahmad ibn Zayn al-Habashi}
+\item
+  \emph{Safinat al-Najah} by \textbf{Salim ibn Sumayr al-Hadrami}
+\item
+  \emph{Al-Muqaddimah al-Hadramiyyah} (both large and small versions) by
+  \textbf{Abd al-Rahman Ba Fadl}
+\item
+  \emph{Al-Yaqut al-Nafis} by \textbf{Ibn Ahmad ibn Umar al-Shatiri}
+\item
+  \emph{Matn al-Ghayah wal-Taqrib} by \textbf{Abu Shuja' al-Asfahani}
+\item
+  \emph{Safwat al-Zubad} by \textbf{Shihab al-Din Ahmad ibn Raslan}
+\item
+  \emph{Umdat al-Salik} by \textbf{Ibn Naqib}
+\end{itemize}
+
+\subsubsection{\texorpdfstring{Commentaries
+(\emph{Shuruh})}{Commentaries (Shuruh)}}\label{commentaries-shuruh}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Nayl al-Raja} --- on \emph{Safinat al-Najah} by \textbf{Ahmad
+  ibn Umar al-Shatiri}
+\item
+  \emph{Bushra al-Karim} --- on \emph{al-Muqaddimah al-Hadramiyyah} by
+  \textbf{Sa'id ibn Muhammad Ba'ishin}
+\item
+  Commentary on \emph{Matn Abi Shuja'} by \textbf{Ibn Qasim al-Ghazzi}
+\item
+  \emph{Al-Iqna'} by \textbf{al-Khatib al-Shirbini}
+\item
+  \emph{Fath al-Allam} --- on \emph{Murshid al-Anam} by
+  \textbf{al-Jurdani}
+\item
+  \emph{Fath al-Wahhab} --- on \emph{al-Minhaj} by \textbf{Zakariya
+  al-Ansari}
+\item
+  \emph{Fath al-Muin} --- on \emph{Qurrat al-Ayn} by \textbf{Zayn al-Din
+  ibn Abd al-Aziz al-Malibari}
+\end{itemize}
+
+\paragraph{\texorpdfstring{Major Commentaries on Imam al-Nawawi's
+\emph{Minhaj}}{Major Commentaries on Imam al-Nawawi's Minhaj}}\label{major-commentaries-on-imam-al-nawawis-minhaj}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Kanz al-Raghibin} by \textbf{al-Muhalli}
+\item
+  \emph{Mughni al-Muhtaj} by \textbf{al-Khatib al-Shirbini}
+\item
+  \emph{Nihayat al-Muhtaj} by \textbf{al-Ramli}
+\item
+  \emph{Tuhfat al-Muhtaj} by \textbf{Ibn Hajar al-Haytami}
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, breakable, toptitle=1mm, coltitle=black, opacityback=0, bottomrule=.15mm, left=2mm, bottomtitle=1mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Why These Commentaries Matter}, rightrule=.15mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-important-color!10!white, arc=.35mm, toprule=.15mm, titlerule=0mm, leftrule=.75mm]
+
+These commentaries form the backbone of Shafi'i legal reasoning. They
+are not merely explanatory --- they shape how the madhhab is
+transmitted, applied in fatwa, and taught around the world.
+
+\begin{itemize}
+\tightlist
+\item
+  They clarify ambiguous expressions in the core texts (\emph{mutun}).
+\item
+  They reconcile variant opinions and serve as the primary references
+  for jurists and students alike.
+\item
+  They preserve the reasoning of the madhhab's foremost authorities,
+  including \textbf{Ibn Hajar}, \textbf{al-Ramli}, and
+  \textbf{al-Nawawi}.
+\end{itemize}
+
+\subsubsection{Institutional Approaches}\label{institutional-approaches}
+
+In institutions like \textbf{al-Azhar}, it is common for two or three
+major commentaries to be read alongside the \emph{mutun} during lessons
+with the teacher. This approach emphasizes layered analysis, discussion,
+and legal evaluation in the classroom.
+
+In contrast, in the \textbf{Hijaz}, particularly in \textbf{Yemen},
+teachers focus primarily on the \emph{mutun} in class. Students are
+expected to study the commentaries independently after mastering the
+texts. This fosters precision, retention, and discipline in the early
+stages of learning.
+
+Each tradition carries its strengths --- al-Azhar cultivates comparative
+analysis, while the Hijazi model emphasizes firm mastery before engaging
+multiple views.
+
+\end{tcolorbox}
+
+\subsubsection{\texorpdfstring{Supercommentaries
+(\emph{Hawashi})}{Supercommentaries (Hawashi)}}\label{supercommentaries-hawashi}
+
+\begin{itemize}
+\tightlist
+\item
+  Supercommentary by \textbf{al-Bajuri} on the commentary of \textbf{Ibn
+  Qasim} on \emph{Matn Abi Shuja'}
+\item
+  Supercommentary by \textbf{Bakri ibn Shatta al-Dimyati} on \emph{Fath
+  al-Muin}
+\item
+  Supercommentary by \textbf{Abd Allah ibn Hajjazi al-Sharqawi} on
+  \emph{Sharh al-Tahrir}
+\item
+  Madinan tradition of supercommentaries on \textbf{Ibn Hajar}'s
+  \emph{Muqaddimah}, notably:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Muhammad ibn Sulayman al-Kurdi}
+  \item
+    \textbf{al-Tarmisi}
+  \end{itemize}
+\item
+  \textbf{al-Bujayrimi} on \emph{al-Iqna'} of \textbf{al-Khatib}
+\item
+  \textbf{al-Jamal} and \textbf{al-Bujayrimi} on \emph{Sharh al-Minhaj}
+\item
+  Further supercommentaries on \emph{Minhaj al-Talibin} exist
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, toptitle=1mm, coltitle=black, opacityback=0, bottomrule=.15mm, left=2mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Unpublished Treasures}, rightrule=.15mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm, titlerule=0mm, leftrule=.75mm]
+
+Some supercommentaries remain in manuscript form and are in the process
+of being published. Among them:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{al-Dimyari} on various texts
+\item
+  \textbf{al-Azhari}
+\item
+  \textbf{Taqi al-Subki}
+\end{itemize}
+
+\end{tcolorbox}
+
+Other important supercommentaries include:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Abd al-Hamid al-Sharwani} and \textbf{Ibn Qasim al-Ubadi} on
+  \emph{Tuhfat al-Muhtaj}
+\item
+  \textbf{al-Qalubi} and \textbf{Umayrah} on \emph{Sharh al-Mahalli}
+\item
+  \textbf{al-Shirbini} and \textbf{al-Rashidi} on \emph{Nihayat
+  al-Muhtaj}
+\end{itemize}
+
+\subsubsection{\texorpdfstring{Legal Opinions
+(\emph{Fatawa})}{Legal Opinions (Fatawa)}}\label{legal-opinions-fatawa}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Fatawa} of \textbf{al-Izz ibn Abd al-Salam}
+\item
+  \emph{Fatawa} of \textbf{al-Subki}
+\item
+  \emph{Fatawa al-Suyuti} (al-Hawi lil-Fatawi)
+\item
+  \emph{Fatawa Nawawiyyah} by \textbf{al-Nawawi}
+\item
+  \emph{Fatawa Kubra} by \textbf{Ibn Hajar}
+\item
+  \emph{Fatawa Bamakhramah}
+\item
+  \emph{Bughiyyat al-Mustarshidin} by \textbf{Abd al-Rahman al-Mashhur}
+\end{itemize}
+
+\subsubsection{Works on Takhrij
+al-Hadith}\label{works-on-takhrij-al-hadith}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Talkhis al-Habir} by \textbf{Ibn Hajar al-Asqalani}
+\item
+  \emph{Badr al-Munir} and \emph{Tuhfat al-Muhtaj} by \textbf{Ibn
+  al-Mulaqqin}
+\end{itemize}
+
+\subsubsection{Books Supporting the Madhhab with
+Evidences}\label{books-supporting-the-madhhab-with-evidences}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Nihayat al-Matlab fi Adillat al-Madhhab} by \textbf{Imam
+  al-Haramayn al-Juwayni}
+\item
+  \emph{al-Hawi al-Kabir} by \textbf{al-Mawardi}
+\item
+  \emph{al-Majmu'} by \textbf{al-Nawawi}
+\item
+  \emph{Fath al-Aziz} by \textbf{al-Rafi'i}
+\item
+  \emph{Sharh al-Minhaj} by \textbf{Taqi al-Din al-Subki}
+\end{itemize}
+
+\subsubsection{Fiqh Lexicons}\label{fiqh-lexicons}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{al-Misbah al-Munir} by \textbf{al-Fayyumi}
+\item
+  \emph{Tahrir al-Tanbih} and \emph{Daqaiq al-Minhaj} by
+  \textbf{al-Nawawi}
+\item
+  \emph{al-Nazm al-Mustadhhab fi Hall Alfaz al-Madhhab} by \textbf{Ibn
+  Batal al-Rukbi}
+\end{itemize}
+
+\subsubsection{Biographical
+Dictionaries}\label{biographical-dictionaries}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Tabaqat al-Shafi'iyyah} by \textbf{Ibn Asim al-Abbadi}
+\item
+  \emph{Tabaqat al-Shafi'iyyah al-Kubra} by \textbf{Taj al-Din al-Subki}
+\item
+  \emph{Tabaqat al-Shafi'iyyah} by \textbf{al-Isnawi}
+\item
+  \emph{Tabaqat al-Shafi'iyyah} by \textbf{Qadi Shuhbah}
+\item
+  \emph{al-Tuhfa al-Bahiyyah fi Tabaqat al-Shafi'iyyah} by
+  \textbf{al-Sharqawi}
+\end{itemize}
+
+\subsection{Distinct Merits of the Shafi'i
+Madhhab}\label{distinct-merits-of-the-shafii-madhhab}
+
+The Shafi'i school is distinguished by many unique features, of which we
+mention:
+
+\subsubsection{1. Strong Foundation on Textual
+Proof}\label{strong-foundation-on-textual-proof}
+
+Its founder, may Allah have mercy on him, based the school firmly on
+scriptural evidence from the Qur'an and Sunnah. He was a student of Imam
+Malik and learned directly from the followers of the Prophet's
+companions. Later scholars like Ahmad ibn Hanbal followed him, and the
+great hadith masters such as al-Bayhaqi and Ibn Hajar al-Asqalani served
+the madhhab by compiling evidences, demonstrating that many of the
+leading hadith scholars (\emph{Huffadh, a memorizer of no less than
+100,000 Ahadith with their respective chains of narraration!}) were from
+the Shafi'i school.
+
+\subsubsection{2. Groundbreaking Work in Legal
+Theory}\label{groundbreaking-work-in-legal-theory}
+
+Imam al-Shafi'i was the first to codify the principles of jurisprudence
+(usul al-fiqh) in a structured work. His students and their students
+developed major reference works, such as those by al-Juwayni and
+al-Ghazali, that became foundational texts across madhhab lines.
+
+\subsubsection{3. Balanced Methodology}\label{balanced-methodology}
+
+The madhhab strikes a balance between the rationalist approach (ahl
+al-ra'y) and the traditionalist approach (ahl al-hadith).
+
+\subsubsection{4. Widespread Ijtihad}\label{widespread-ijtihad}
+
+A large number of independent jurists (mujtahidun) emerged within the
+madhhab and made contributions in every era and region, such as al-Izz
+ibn Abd al-Salam, Ibn Daqiq al-'Id, al-Subki, al-Suyuti, and many
+others.
+
+\subsubsection{5. Rich Literature}\label{rich-literature}
+
+There is an abundance of books written by scholars verifying, refining,
+and supporting the madhhab throughout the centuries, making learning and
+research easier for students.
+
+\subsubsection{6. Global Reach}\label{global-reach}
+
+Followers of the madhhab are found across the Muslim world --- from
+Indonesia, Malaysia, and Southeast Asia to India, Persia, Iraq, the
+Levant, the Arabian Gulf, Hijaz, Hadramawt, Yemen, Egypt, and even parts
+of East Africa.
+
+\subsubsection{7. Successive Revivers}\label{successive-revivers}
+
+At the start of nearly every century, a notable reviver (mujaddid) of
+the madhhab has emerged. Among them:
+
+\begin{itemize}
+\tightlist
+\item
+  Imam al-Shafi'i for the 2nd century\\
+\item
+  Abu al-Abbas ibn Surayj for the 3rd\\
+\item
+  Abu al-Tayyib al-Tabari for the 4th\\
+\item
+  Abu Hamid al-Ghazali for the 5th\\
+\item
+  Fakhr al-Din al-Razi for the 6th\\
+\item
+  Imam al-Nawawi for the 7th\\
+\item
+  Al-Isnawi for the 8th\\
+\item
+  Ibn Hajar al-Haytami for the 9th\\
+\item
+  Al-Suyuti for the 10th
+\end{itemize}
+
+
+
+
+\end{document}
