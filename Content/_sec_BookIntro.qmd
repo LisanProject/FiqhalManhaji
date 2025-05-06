@@ -15,10 +15,7 @@ limitations under the License.
 :::
 
 # Introduction {#sec-intro}
-
-This document is a working companion to **_Al-Fiqh al-Manhaji: A Systematic Manual According to the Madhhab of Imam al-Shafi'i_**, authored by **Dr. Mustafa al-Khin**, **Dr. Mustafa Dib al-Bugha**, and **Dr. Ali al-Sharbaji**.
-
-It is based on and inspired by ongoing **lectures by Shaykh Mahdi Lock**, and aims to support students of the Shafi'i madhhab through:
+This document is based on and inspired by ongoing **lectures by Shaykh Mahdi Lock**, and aims to support students of the Shafi'i madhhab through:
 
 - **Structured and summarized fiqh notes**  
 - **Clarifications of key legal rulings and definitions**  
@@ -49,7 +46,7 @@ The content follows the topical arrangement of the original *Al-Fiqh al-Manhaji*
 4. **Fasting (al-Siyam)**  
 5. **Hajj and Umrah**
 
-More will be added over time, and each chapter will eventually include details on the footnotes and commentaries by the authors.
+More will be added over time, and each chapter will eventually include details on the footnotes and commentaries by the authors. Before going into Fiqh al-Manhaji itself, an introduction to the foundation and origin of the Madhab through a translation of the beginning portion of Taqrirat al-Sadidah is provided.
 
 ---
 
