@@ -1,5 +1,5 @@
 ---
-title: Introduction to the Shafi'i Madhhab- Taqrir al-Sadidah
+title: Introduction to the Shafi'i Madhhab- Taqrirat al-Sadidah
 author:
   - name: Liban Hussein
     email: lisanproject25@gmail.com
