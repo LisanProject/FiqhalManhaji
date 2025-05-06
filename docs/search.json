@@ -1,22 +1,17 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "1 Al-Fiqh al-Manhaji",
+    "section": "",
+    "text": "1 Al-Fiqh al-Manhaji\n\n1.0.1 A Systematic Manual According to the Madhhab of Imam al-Shafi’i\nby Dr. Mustafa al-Khin, Dr. Mustafa Dib al-Bugha, and Dr. Ali al-Sharbaji\n(c) 2025 Liban Hussein\nThis project is a work-in-progress collection of notes and commentary based on the lectures of Shaykh Mahdi Lock on the Shafi’i madhhab, using Al-Fiqh al-Manhaji as the core text.\n\n\n\n\n\n\n\nQuote\n\n\n\n\n“I used to turn the page gently in front of Malik out of reverence for him, lest he hear its sound.”\n— Imam al-Shafi’i"
+  },
+  {
     "objectID": "course-material.html",
     "href": "course-material.html",
     "title": "Introduction to the Shafi’i School",
     "section": "",
     "text": "by Dr. Mustafa al-Khin, Dr. Mustafa Dib al-Bugha, and Dr. Ali al-Sharbaji\n(c) 2025 Liban Hussein\nThis project is a work-in-progress collection of notes and commentary based on the lectures of Shaykh Mahdi Lock on the Shafi’i madhhab, using Al-Fiqh al-Manhaji as the core text.\n\n\n\n\n\n\n\nQuote\n\n\n\n\n“I used to turn the page gently in front of Malik out of reverence for him, lest he hear its sound.”\n— Imam al-Shafi’i",
-    "crumbs": [
-      "<i class='bi bi-house-door'></i> Home",
-      "1 Introduction",
-      "Introduction to the Shafi'i School"
-    ]
-  },
-  {
-    "objectID": "course-material.html#the-founder-of-the-school",
-    "href": "course-material.html#the-founder-of-the-school",
-    "title": "Introduction to the Shafi’i School",
-    "section": "3.1 The Founder of the School",
-    "text": "3.1 The Founder of the School\nMuhammad ibn Idris al-Shafi’i al-Muttalibi is the founder of the Shafi’i school. His lineage connects with that of the Prophet Muhammad ﷺ at their common ancestor, Abd Manaf. He was born in Gaza in the year 150 AH and was brought to Mecca, where he began his pursuit of knowledge.\nHe studied under Imam Khalid ibn Muslim al-Zanji, the Mufti of Mecca, as well as under al-Fudayl ibn Iyad, Sufyan ibn Uyaynah, and others.\nThen he traveled to Madinah at the age of twelve, and memorized the entire Muwattaʼ in nine days, intending to stay with Imam Malik. He studied under Imam Malik until he became one of his top students. He also took knowledge from the scholars of Madinah and Mecca. He engaged deeply in Arabic linguistics and poetry and was praised for his mastery. Even al-Asma’i benefited from him, and he learned from the ancient poetry of the Banu Hudhayl tribe.\nHe traveled to Yemen and took knowledge from scholars such as Mutarrif ibn Mazin, Hisham ibn Yusuf the judge, Amr ibn Abi Salamah, and Yahya ibn Hasan. Then he traveled to Iraq and studied with Waki’, Muhammad ibn al-Hasan al-Shaybani, the jurist of Iraq, and others such as Ahmad ibn Hanbal, Abu Thawr, and others.\nHe composed the book Al-Hujjah and established what became known as the old school of thought. Later, he took knowledge from the scholars of Egypt, such as Imam Ahmad ibn Abi Surayj and others, and turned toward Egypt, where his juristic reasoning matured through extensive debate. He revised some of his earlier opinions and established the new school of thought.\nHe is regarded as the renewer (mujaddid) of the second century, as he combined between the sciences of hadith and the intellectual reasoning of opinion-based jurisprudence. He laid down the foundations of usul al-fiqh, authoring Al-Risalah, the first book on legal theory. His knowledge extended across hadith, Qur’an, Arabic, grammar, history, poetry, and theology. He lived a life of asceticism and worship, turning away from the world and preferring the hereafter. He passed away in Egypt in the year 204 AH.\nImam Ahmad said: “Imam al-Shafi’i was like the sun for the world and like health for the body — can either of these be replaced or substituted?”\nHe also said: “Knowledge of jurisprudence was locked up with its people until God opened it through al-Shafi’i.”\nImam Abu Zur’ah said about him: “I do not know of anyone who had a greater impact on the people of Islam than al-Shafi’i.”\nMay God have mercy on them and be pleased with them all.",
     "crumbs": [
       "<i class='bi bi-house-door'></i> Home",
       "1 Introduction",
@@ -36,11 +31,16 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "1 Al-Fiqh al-Manhaji",
-    "section": "",
-    "text": "1 Al-Fiqh al-Manhaji\n\n1.0.1 A Systematic Manual According to the Madhhab of Imam al-Shafi’i\nby Dr. Mustafa al-Khin, Dr. Mustafa Dib al-Bugha, and Dr. Ali al-Sharbaji\n(c) 2025 Liban Hussein\nThis project is a work-in-progress collection of notes and commentary based on the lectures of Shaykh Mahdi Lock on the Shafi’i madhhab, using Al-Fiqh al-Manhaji as the core text.\n\n\n\n\n\n\n\nQuote\n\n\n\n\n“I used to turn the page gently in front of Malik out of reverence for him, lest he hear its sound.”\n— Imam al-Shafi’i"
+    "objectID": "course-material.html#the-founder-of-the-school",
+    "href": "course-material.html#the-founder-of-the-school",
+    "title": "Introduction to the Shafi’i School",
+    "section": "3.1 The Founder of the School",
+    "text": "3.1 The Founder of the School\nMuhammad ibn Idris al-Shafi’i al-Muttalibi is the founder of the Shafi’i school. His lineage connects with that of the Prophet Muhammad ﷺ at their common ancestor, Abd Manaf. He was born in Gaza in the year 150 AH and was brought to Mecca, where he began his pursuit of knowledge.\nHe studied under Imam Khalid ibn Muslim al-Zanji, the Mufti of Mecca, as well as under al-Fudayl ibn Iyad, Sufyan ibn Uyaynah, and others.\nThen he traveled to Madinah at the age of twelve, and memorized the entire Muwattaʼ in nine days, intending to stay with Imam Malik. He studied under Imam Malik until he became one of his top students. He also took knowledge from the scholars of Madinah and Mecca. He engaged deeply in Arabic linguistics and poetry and was praised for his mastery. Even al-Asma’i benefited from him, and he learned from the ancient poetry of the Banu Hudhayl tribe.\nHe traveled to Yemen and took knowledge from scholars such as Mutarrif ibn Mazin, Hisham ibn Yusuf the judge, Amr ibn Abi Salamah, and Yahya ibn Hasan. Then he traveled to Iraq and studied with Waki’, Muhammad ibn al-Hasan al-Shaybani, the jurist of Iraq, and others such as Ahmad ibn Hanbal, Abu Thawr, and others.\nHe composed the book Al-Hujjah and established what became known as the old school of thought. Later, he took knowledge from the scholars of Egypt, such as Imam Ahmad ibn Abi Surayj and others, and turned toward Egypt, where his juristic reasoning matured through extensive debate. He revised some of his earlier opinions and established the new school of thought.\nHe is regarded as the renewer (mujaddid) of the second century, as he combined between the sciences of hadith and the intellectual reasoning of opinion-based jurisprudence. He laid down the foundations of usul al-fiqh, authoring Al-Risalah, the first book on legal theory. His knowledge extended across hadith, Qur’an, Arabic, grammar, history, poetry, and theology. He lived a life of asceticism and worship, turning away from the world and preferring the hereafter. He passed away in Egypt in the year 204 AH.\nImam Ahmad said: “Imam al-Shafi’i was like the sun for the world and like health for the body — can either of these be replaced or substituted?”\nHe also said: “Knowledge of jurisprudence was locked up with its people until God opened it through al-Shafi’i.”\nImam Abu Zur’ah said about him: “I do not know of anyone who had a greater impact on the people of Islam than al-Shafi’i.”\nMay God have mercy on them and be pleased with them all.",
+    "crumbs": [
+      "<i class='bi bi-house-door'></i> Home",
+      "1 Introduction",
+      "Introduction to the Shafi'i School"
+    ]
   },
   {
     "objectID": "course-material.html#the-imams-of-the-school",
