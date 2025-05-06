@@ -15,15 +15,8 @@ limitations under the License.
 :::
 
 # Introduction {#sec-intro}
-This document is based on and inspired by ongoing **lectures by Shaykh Mahdi Lock**, and aims to support students of the Shafi'i madhhab through:
 
-- **Structured and summarized fiqh notes**  
-- **Clarifications of key legal rulings and definitions**  
-- **Side references from classical commentaries**  
-- **Thematic breakdowns by chapter and legal category**  
-- **Occasional comparisons with other madhahib where relevant**  
-
-The long-term goal is to provide an accessible, organized study companion for English-speaking students of sacred law, rooted in reliable Shafi'i methodology and sources.
+The long-term goal of this project is to provide an accessible, organized study companion for English-speaking students of sacred law, rooted in reliable Shafi'i methodology and sources (as taught by Shaykh Mahdi Lock)
 
 ---
 
@@ -34,7 +27,7 @@ The content follows the topical arrangement of the original *Al-Fiqh al-Manhaji*
 - Main rulings and definitions  
 - Evidence when included  
 - Summary tables where beneficial  
-- Notes, commentary, or clarifications based on trusted teachers and works like *Taqrirat al-Sadidah*
+- Notes, commentary, or clarifications based on trusted works like *Taqrirat al-Sadidah*
 
 ---
 
