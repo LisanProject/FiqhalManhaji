@@ -11,7 +11,7 @@ In this phase, his students and companions began spreading the madhhab. Among th
 ::: {.callout-note title="The Legacy of al-Muzani and the Departure of al-Tahawi"}
 Al-Muzani, one of the closest students of Imam al-Shafi'i, played a pivotal role in transmitting the madhhab. His *Mukhtasar* became a foundational reference for later scholars.
 
-His nephew, Abu Ja'far al-Tahawi, initially studied under him in the Shafi'i school. However, when al-Tahawi showed signs of leaning toward the Hanafi madhhab, al-Muzani reportedly remarked:
+His nephew, Abu Ja'far al-Tahawi, initially studied under him in the Shafi'i school. al-Muzani reportedly remarked:
 
 > "You will never attain a high rank in knowledge."
 
@@ -47,10 +47,9 @@ Once the madhhab had been firmly established through the works of al-Nawawi and 
 
 - When Nawawi and al-Rafi'i agree on a matter, their position is adopted as the **relied-upon** (mu'tamad).
 - If they (Nawawi and Rafi'i) differ, the **opinion of al-Nawawi** is preferred.
-- If al-Nawawi was silent on the matter, **either of the two** may be relied upon.
-- If they both disagreed on a matter not addressed by earlier scholars, **the people of the Hijaz and Hadramawt** prefer Ibn Hajar, whereas **Egyptians and Syrians** often favor al-Ramli.
+- If both al-Nawawi and al-Rafi'i were silent on a matter, i.e neither spoke on a particular issue, one is free to choose either between the opinions Ibn Hajar al-Haytami or Shihab al-Ramli.
+- When choosing between the opinions of Ibn Hajar and al-Ramli, **the people of the Hijaz and Hadramawt** prefer the *Tuhfah* of Ibn Hajar, whereas **Egyptians and Syrians** often favor the *Nihayah* of al-Ramli.
 :::
-
 
 ## On Other Authors and Works
 
