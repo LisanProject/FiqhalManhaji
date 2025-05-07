@@ -43,10 +43,7 @@ These commentaries form the backbone of Shafi'i legal reasoning. They are not me
 
 In institutions like **al-Azhar**, it is common for two or three major commentaries to be read alongside the *mutun* during lessons with the teacher. This approach emphasizes layered analysis, discussion, and legal evaluation in the classroom.
 
-In contrast, in the **Hijaz**, particularly in **Yemen**, teachers focus primarily on the *mutun* in class. Students are expected to study the commentaries independently after mastering the texts. This fosters precision, retention, and discipline in the early stages of learning.
-
-Each tradition carries its strengths — al-Azhar cultivates comparative analysis, while the Hijazi model emphasizes firm mastery before engaging multiple views.
-
+In contrast, in the **Hijaz**, particularly in **Yemen**, (think institutions like Dar al-Mustafa in Tarim) teachers focus primarily on the *mutun* in class. Students are expected to study the commentaries independently after mastering the texts. This fosters precision, retention, and discipline in the early stages of learning.
 :::
 
 ### Supercommentaries (*Hawashi*)
@@ -79,7 +76,7 @@ Other important supercommentaries include:
 
 - *Fatawa* of **al-Izz ibn Abd al-Salam**
 - *Fatawa* of **al-Subki**
-- *Fatawa al-Suyuti* (al-Hawi lil-Fatawi)
+- *Fatawa* of **al-Suyuti** *(al-Hawi lil-Fatawi)*
 - *Fatawa Nawawiyyah* by **al-Nawawi**
 - *Fatawa Kubra* by **Ibn Hajar**
 - *Fatawa Bamakhramah*
