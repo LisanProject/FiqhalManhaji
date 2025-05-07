@@ -8,7 +8,7 @@ by **Dr. Mustafa al-Khin**, **Dr. Mustafa Dib al-Bugha**, and **Dr. Ali al-Sharb
 
 **(c) 2025 Liban Hussein**
 
-This project is a work-in-progress collection of notes and commentary based on the lectures of **Shaykh Mahdi Lock** on the **Shafi'i madhhab**, using *Al-Fiqh al-Manhaji* as the core text.
+This project is a work-in-progress collection of notes and commentary based on the lectures of [**Shaykh Mahdi Lock**](https://www.arkview.org/products/advanced-shafi-i-fiqh) on the **Shafi'i madhhab**, using [*Al-Fiqh al-Manhaji*](https://muhibaddeen.wordpress.com/wp-content/uploads/2013/11/arabic_-at-taqreraat-assadeeda.pdf) as the core text.
 
 
 ---
